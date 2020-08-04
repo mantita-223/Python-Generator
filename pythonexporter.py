@@ -28,9 +28,6 @@ def export_squares():
     # my_file.write(squares_json)
 
     with open("exported.py", "w+") as my_file:
-        my_file.write(
-            "# this code is python code. Put this code in a .py file for it to work."
-        )
         my_file.write("\nfrom tkinter import *")
         my_file.write("\nwindow = Tk()")
         my_file.write("\nwindow.title('" + windowtitle + "')")
